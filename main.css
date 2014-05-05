@@ -1,19 +1,36 @@
 body {
 	background-color: #333333;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	color: #ffffff;
 }
-
 
 .header {
 	background-color: #f5f5f5;
 	border: 1px solid #555555;
 	border-radius: 5px;
-	text-align: center;
-	height: 50px;
-	margin: 0 auto;	
+	height: auto;	
 }
+
+.headliner {
+	background-color: #555555;
+	height: 70px;
+	line-height: 70px;
+	width: 282px;
+	border: 1px solid #555555;
+	border-radius: 5px;
+	color: #f5f5f5;
+	margin: 5;
+	padding-left: 5px;
+	font-size: 40px;
+	
+}
+
+.headliner:hover {
+	width: 865px;
+	transition: all 0.2s ease;
+}
+
+
+/* Main Body Starts */
 
 .main {
 	width: 1400px;
@@ -24,6 +41,7 @@ body {
 .left {
 	background-color: #f5f5f5;
 	border: 1px solid #555555;
+	color: #333333;
 	border-radius: 5px;
 	height: auto;
 	width: 23%;
@@ -37,45 +55,249 @@ body {
 .right {
 	background-color: #f5f5f5;
 	border: 1px solid #555555;
+	color: #ffffff;
+	font-size: 13px;
 	border-radius: 5px;
 	height: auto;
 	width: 73%;
-	display: inline-block;
-	position: relative;
 	float: right;
 	margin: 5px 5px 5px 0px;
-	padding: 5;
+	padding: 10;
 }
 
-.small {
-	height: 30px;
-	line-height: 30px;
-	border-radius: 5px;
-	background-color: #cd1713;
-	width: 100px;
-	text-align: center;
-	margin: 10;
+.container1 {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
 }
 
-.medium {
+.warning {
 	height: 50px;
+	width: 150px;
 	line-height: 50px;
 	border-radius: 5px;
-	background-color: #cd1713;
-	width: 100px;
-	text-align: center;
-	margin: 10;
+	border: 2px solid #000000;
+	background-color: #ffd700;
+	color: #000000;
+	font-size: 30px;
+	text-align: left;
+	padding-left: 5px;
+	margin: 10px 0px 20px 10px;
 }
 
-.large {
-	height: 70px;
-	line-height: 70px;
-	border-radius: 5px;
+.warning:hover {
 	background-color: #cd1713;
-	width: 100px;
-	text-align: center;
-	margin: 10;
+	color: #ffffff;
+	transition: -0.3s ease;
 }
+
+.christmas {
+	background-image: url("http://24.media.tumblr.com/ffcd709005e24ce9e4660f39c85faada/tumblr_mx5x9gAF6T1t22th1o1_1280.gif") ;
+	background-size: cover;
+	width: 240px;
+	height: 90px;
+	color: #008000;
+	text-align: center;
+	font-size: 15px;
+	line-height: 15px;
+	margin: 10px 0px 20px 10px;
+}
+
+.christmas:hover {
+	color: #cd1713;
+	font-size: 45px;
+	line-height: 45px;
+	transition: 1.5s ease;
+}
+
+.click {
+	height: 45px;
+	line-height: 45px;
+	width: 45px;
+	color: #ffffff;
+	background-color: #0000cd;
+	border: 2px solid #000080;
+	border-radius: 100%;
+	margin: 10px 0px 20px 10px;
+	text-align: center;
+	font-size: 15px;
+	transition: 0.4s ease;
+}
+
+.click:hover {
+	text-shadow: 0px 0px 2px #ffffff;
+}
+
+.click:active {
+	height: 45px;
+	line-height: 45px;
+	width: 45px;
+	color: #ffffff;
+	background-color: #4169E1;
+	border: 2px solid #000080;
+	border-radius: 100%;
+}
+
+/* Charts Start */
+
+.chart{
+	text-align: center;
+}
+
+.skinny p {
+ 	width: 150px;
+	height: 25px;
+	font-size: 17px;
+	line-height: 25px;
+	border-radius: 5px 5px 1px 1px;
+	background-color: #008080;
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 20px 0px;
+}
+
+.skinny:hover {
+	text-shadow: 0px 0px 1px #f5f5f5;
+	
+}
+
+.skinny:active {
+	width: 150px;
+	height: 130px;
+	background-color: #f5f5f5;
+	color: #f5f5f5;
+	border: 1px solid #008080;
+	border-radius: 7px 7px 1px 1px;
+	margin-bottom: 10px;
+}
+
+
+.winner {
+	background-image: url("http://www.crazymonkeydefense.com/wp-content/uploads/2014/03/black-hd-background-background-wallpapers-abstract-photo-cool-black-background.jpg") ;
+	background-size: cover;
+	width: 240px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid #000000;
+	border-radius: 5px 5px 5px 5px;
+	margin: 20px 0px 20px 0px;
+}
+
+.winner a {
+	color: #ADFF2F;
+	text-decoration: none;
+	font-family: Helvetica;
+	text-shadow: -1px -1px 1px #000000;
+}
+
+.winner:active {
+	background-image: url("http://stream1.gifsoup.com/view3/1261616/volume-meter-o.gif") ;
+	background-size: cover;
+	width: 240px;
+	height: 90px;
+	font-size: 45px;
+	line-height: 90px;
+	text-align: center;
+	transition: 0.1s ease;
+}
+
+/* Menu Starts */
+
+.container2 {
+	margin: 10px 0px 10px 0px;
+	height: 30px;
+}
+
+.menu div {
+	margin-bottom: 30px;
+}
+
+.menu {
+	list-style: none;
+	width: auto;
+	height: 30px;
+	background: #000000;
+	border: 1px solid #222222;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+	position: relative;	
+}
+
+.menu li {
+	height: 30px;
+	width: 60px;
+	float: left;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	float: left;
+	margin: 5px 0px 0px 5px;
+}
+
+.menu li a:hover {
+	background-color: #FFFF00;
+	background-size: cover;
+	border-radius: 10px 0px 0px 0px;
+	color: #000000;
+	height: 28px;
+	width: 60px;
+	text-align: center;
+}
+
+/* Content Ends */
+.container3 div {
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	height: 30px;
+}
+
+.container3 {
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	height: 30px;
+}
+
+
+.wide {
+	width: 80px;
+	height: 50px;
+	background-color: #000000;
+	margin-top: 60px;
+}
+
+.wide:hover {
+	background: orange;
+	height: 50px;
+	width: 500px;
+}
+
+/* Content Ends */
+
+.example {
+	width: 80px;
+	height: 50px;
+	background-color: #000000;
+	margin-top: 60px;
+}
+
+.example:hover {
+	background: orange;
+	height: 50px;
+	width: 500px;
+}
+
+/* Footer Starts */
 
 .footer {
 	clear: both;
