@@ -26,7 +26,7 @@ body {
 
 .headliner:hover {
 	width: 865px;
-	transition: all 0.2s ease;
+	transition: all 0.1s ease;
 }
 
 
@@ -34,16 +34,13 @@ body {
 
 .main {
 	width: 1400px;
-	height: auto;
-	margin: 0 auto;
 }
 
-.left {
+.leftcontent {
 	background-color: #f5f5f5;
 	border: 1px solid #555555;
 	color: #333333;
 	border-radius: 5px;
-	height: auto;
 	width: 23%;
 	display: inline-block;
 	position: relative;
@@ -52,13 +49,12 @@ body {
 	padding: 5;
 }
 
-.right {
+.rightcontent {
 	background-color: #f5f5f5;
 	border: 1px solid #555555;
 	color: #ffffff;
 	font-size: 13px;
 	border-radius: 5px;
-	height: auto;
 	width: 73%;
 	float: right;
 	margin: 5px 5px 5px 0px;
@@ -139,10 +135,6 @@ body {
 }
 
 /* Charts Start */
-
-.chart{
-	text-align: center;
-}
 
 .skinny p {
  	width: 150px;
@@ -254,41 +246,186 @@ body {
 }
 
 /* Content Ends */
-.container3 div {
-	margin-top: 10px;
-	display: block;
-	position: relative;
-	height: 30px;
-}
 
 .container3 {
-	margin-top: 10px;
-	display: block;
-	position: relative;
-	height: 30px;
+}
+
+.candy {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-image: url("http://www.clker.com/cliparts/8/7/c/4/1224784889408279301bluefrog23_Peppermint_Candy.svg.med.png") ;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.candy:hover {
+	width: 350px;
+	height: 350px;
+	border: 10px solid f1f1f1;
+	borderr-radius: 100%;
+	background-image: url("http://www.clker.com/cliparts/8/7/c/4/1224784889408279301bluefrog23_Peppermint_Candy.svg.med.png") ;
+	background-size: cover;
+	transition: 5s ease;
+}
+
+.candy:active {
+	width: 350px;
+	height: 350px;
+	border: 10px solid f1f1f1;
+	borderr-radius: 100%;
+	background-image: url("http://www.clker.com/cliparts/8/7/c/4/1224784889408279301bluefrog23_Peppermint_Candy.svg.med.png") ;
+	background-size: cover;
+	transition: 5s ease;
+}
+
+/*BIG MENU STARTS*/
+
+.first {
+	border-radius: 8px 0px 0px 0px;
+	border: 1px solid #56152D;
+}
+
+.expand {
+	width: 100px;
+	height: 40px;
+	background-color: #882148;
+	border-bottom: 1px solid #56152D;
+	border-right: 1px solid #56152D;
+	border-left: 1px solid #56152D;
+	margin: 0;
+	font-size: 16px;
+}
+
+.expand a {
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #C6B0B9;
+}
+
+.last {
+	border-radius: 0px 0px 0px 8px;
+	border-bottom: 1px solid #56152D;
+	border-right: 1px solid #56152D;
+	border-left: 1px solid #56152D;
+	margin-bottom: 30px;
+}
+
+.expand:hover {
+	background: #BB2D64;
+	height: 47px;
+	width: 300px;
+	border: 2px solid #56152D;
+	transition: 0.5s ease;
 }
 
 
-.wide {
+/*BIG MENU ENDS*/
+/*BIG BUTTONS START*/
+
+
+.up {
+	margin-left: 92px;
+	margin-bottom: 2px;
+}
+
+.up a {
+	margin-left: 30px;
+}
+
+.left {
+	display: inline-block;
+}
+
+.left a {
+	margin-left: 31px;
+}
+
+.down {
+	display: inline-block;
+}
+
+.down a {
+	margin-left: 15px;
+}
+
+.right {
+	display: inline-block;
+}
+
+.right a {
+	margin-left: 17px;
+}
+
+
+
+.button {
+	width: 85px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #004D56;
+	border: 2px solid #08363B;
+	border-radius: 5px;
+	font-size: 22px;
+
+}
+
+.button a {
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #00A8BB;
+}
+
+.button:hover {
+	background: #004D56;
+	height: 40px;
+	line-height: 40px;
+	width: 85px;
+	border: 2px solid #08363B;
+	transition: 0.5s ease;
+}
+
+.button:active {
+	background: #004D56;
+	height: 40px;
+	line-height: 40px;
+	width: 85px;
+	border: 2px solid #08363B;
+	transition: 0.5s ease;
+}
+
+
+
+/*BIG BUTTONS END*/
+
+
+.short {
 	width: 80px;
 	height: 50px;
 	background-color: #000000;
 	margin-top: 60px;
 }
 
-.wide:hover {
+.short:hover {
 	background: orange;
 	height: 50px;
 	width: 500px;
 }
 
+
 /* Content Ends */
 
 .example {
+	clear: both;
 	width: 80px;
 	height: 50px;
 	background-color: #000000;
 	margin-top: 60px;
+
 }
 
 .example:hover {
