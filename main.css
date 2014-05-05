@@ -20,8 +20,7 @@ body {
 	color: #f5f5f5;
 	margin: 5;
 	padding-left: 5px;
-	font-size: 40px;
-	
+	font-size: 40px;	
 }
 
 .headliner:hover {
@@ -29,11 +28,10 @@ body {
 	transition: all 0.1s ease;
 }
 
-
 /* Main Body Starts */
 
 .main {
-	width: 1400px;
+	width: auto;
 }
 
 .leftcontent {
@@ -46,7 +44,7 @@ body {
 	position: relative;
 	float: left;
 	margin: 5px 0px 5px 5px;
-	padding: 5;
+	padding: 10;
 }
 
 .rightcontent {
@@ -164,7 +162,7 @@ body {
 }
 
 
-.winner {
+.turn {
 	background-image: url("http://www.crazymonkeydefense.com/wp-content/uploads/2014/03/black-hd-background-background-wallpapers-abstract-photo-cool-black-background.jpg") ;
 	background-size: cover;
 	width: 240px;
@@ -177,14 +175,14 @@ body {
 	margin: 20px 0px 20px 0px;
 }
 
-.winner a {
+.turn a {
 	color: #ADFF2F;
 	text-decoration: none;
 	font-family: Helvetica;
-	text-shadow: -1px -1px 1px #000000;
+	text-shadow: 0px 0px 5px #008000;
 }
 
-.winner:active {
+.turn:hover {
 	background-image: url("http://stream1.gifsoup.com/view3/1261616/volume-meter-o.gif") ;
 	background-size: cover;
 	width: 240px;
@@ -192,7 +190,7 @@ body {
 	font-size: 45px;
 	line-height: 90px;
 	text-align: center;
-	transition: 0.1s ease;
+	transition: 1s ease;
 }
 
 /* Menu Starts */
@@ -311,7 +309,7 @@ body {
 	border-bottom: 1px solid #56152D;
 	border-right: 1px solid #56152D;
 	border-left: 1px solid #56152D;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .expand:hover {
@@ -322,14 +320,80 @@ body {
 	transition: 0.5s ease;
 }
 
-
 /*BIG MENU ENDS*/
 /*BIG BUTTONS START*/
 
+.normal {
+	-moz-box-shadow: 0px 15px 0px 0px #08363B;
+	-webkit-box-shadow: 0px 15px 0px 0px #08363B;
+	box-shadow: 0px 15px 0px 0px #08363B;
+}
+
+.select {
+	-moz-box-shadow: 0px 15px 0px 0px #08363B;
+	-webkit-box-shadow: 0px 15px 0px 0px #08363B;
+	box-shadow: 0px 15px 0px 0px #08363B;
+}
+
+.press {
+	-moz-box-shadow: 0px 15px 0px 0px #08363B;
+	-webkit-box-shadow: 0px 15px 0px 0px #08363B;
+	box-shadow: 0px 15px 0px 0px #08363B;
+}
+
+
+.test {
+	width: 110px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #004D56;
+	border: 2px solid #08363B;
+	border-radius: 5px;
+	font-size: 22px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.test a {
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0px 0px 2px #00A8BB;
+}
+
+.select:hover {
+	background: #004D56;
+	height: 53px;
+	line-height: 53px;
+	width: 110px;
+	border: 2px solid #08363B;
+	-moz-box-shadow: 0px 12px 0px 0px #08363B;
+	-webkit-box-shadow: 0px 12px 0px 0px #08363B;
+	box-shadow: 0px 12px 0px 0px #08363B;
+	transition: 0.1s ease;
+}
+
+.press:active {
+	background: #004D56;
+	height: 60px;
+	line-height: 60px;
+	width: 110px;
+	border: 2px solid #08363B;
+	transition: 0.5s ease;
+	-moz-box-shadow: 0px 4px 0px 0px #08363B;
+	-webkit-box-shadow: 0px 4px 0px 0px #08363B;
+	box-shadow: 0px 4px 0px 0px #08363B;
+	transition: 0.1s ease;
+}
+
+/*KEYBOARD BUTTONS START*/
 
 .up {
-	margin-left: 92px;
-	margin-bottom: 2px;
+	margin-left: 96px;
+	margin-bottom: 3px;
+	-moz-box-shadow: 4px 9px 4px 0px #757575;
+	-webkit-box-shadow: 4px 9px 4px 0px #757575;
+	box-shadow: 4px 9px 4px 0px #757575;
 }
 
 .up a {
@@ -338,6 +402,9 @@ body {
 
 .left {
 	display: inline-block;
+	-moz-box-shadow: 4px 9px 4px 0px #757575;
+	-webkit-box-shadow: 4px 9px 4px 0px #757575;
+	box-shadow: 4px 9px 4px 0px #757575;
 }
 
 .left a {
@@ -346,6 +413,9 @@ body {
 
 .down {
 	display: inline-block;
+	-moz-box-shadow: 4px 9px 4px 0px #757575;
+	-webkit-box-shadow: 4px 9px 4px 0px #757575;
+	box-shadow: 4px 9px 4px 0px #757575;
 }
 
 .down a {
@@ -354,54 +424,46 @@ body {
 
 .right {
 	display: inline-block;
+	-moz-box-shadow: 4px 9px 4px 0px #757575;
+	-webkit-box-shadow: 4px 9px 4px 0px #757575;
+	box-shadow: 4px 9px 4px 0px #757575;
 }
 
 .right a {
 	margin-left: 17px;
 }
 
-
-
 .button {
 	width: 85px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #004D56;
-	border: 2px solid #08363B;
+	background-color: #999895;
+	border: 4px solid #A4A4A4;
 	border-radius: 5px;
 	font-size: 22px;
-
+	margin-bottom: 4px;
 }
 
 .button a {
 	text-align: center;
 	text-decoration: none;
-	color: #ffffff;
-	text-shadow: 0px 0px 2px #00A8BB;
+	color: #343433;
+	text-shadow: 0px 0px 4px #A4A4A4;
 }
 
 .button:hover {
-	background: #004D56;
-	height: 40px;
-	line-height: 40px;
+	background: #999895;
+	height: 43px;
+	line-height: 43px;
 	width: 85px;
-	border: 2px solid #08363B;
-	transition: 0.5s ease;
+	border: 4px solid #A4A4A4;
+	-moz-box-shadow: 1px 4px 4px 0px #757575;
+	-webkit-box-shadow: 1px 4px 4px 0px #757575;
+	box-shadow: 1px 4px 4px 0px #757575;
+	transition: 0.1s ease;
 }
-
-.button:active {
-	background: #004D56;
-	height: 40px;
-	line-height: 40px;
-	width: 85px;
-	border: 2px solid #08363B;
-	transition: 0.5s ease;
-}
-
-
 
 /*BIG BUTTONS END*/
-
 
 .short {
 	width: 80px;
@@ -416,22 +478,47 @@ body {
 	width: 500px;
 }
 
-
 /* Content Ends */
 
-.example {
-	clear: both;
-	width: 80px;
-	height: 50px;
-	background-color: #000000;
+.yolo {
+	text-align: center;
+	border-radius: 4px;
+	border: 10px #0B2250;
+	text-shadow: 0px 0px 50px #ffffff;
+	background-color: #194CB6;
+	color: #ffd700;
+	width: 600px;
+	height: 150px;
+	line-height: 44px;
+	font-size: 30px;
 	margin-top: 60px;
-
+	margin-bottom: 60px;
 }
 
-.example:hover {
-	background: orange;
-	height: 50px;
-	width: 500px;
+.yolo:hover {
+	text-align: center;
+	line-height: 100px;
+	font-size: 100px;
+	height: 400px;
+	width: 1000px;
+	color: #ffffff;
+	border-radius: 4px;
+	background-image: url("http://i.stack.imgur.com/V3plu.gif") ;
+	background-size: cover;
+	border: 1px solid black;
+	transition: 4s ease;
+}
+
+.sun {
+	height: 45px;
+	line-height: 45px;
+	width: 45px;
+	background-color: #ffd700;
+	border: 4px dashed #DAA520;
+	border-radius: 100%;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	box-shadow: 0px 0px 90px #ffffff;
 }
 
 /* Footer Starts */
@@ -439,8 +526,8 @@ body {
 .footer {
 	clear: both;
 	background-color: #f5f5f5;
-	border: 1px solid #555555;
 	border-radius: 5px;
 	margin: 0 auto;
-	height: 50px;	
+	height: 50px;
+	width: 100%;	
 }
